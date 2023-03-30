@@ -1,0 +1,12 @@
+/* tablet */
+@media screen and (max-width:1024px) {
+    header #header nav a {display:none;}
+    main .inform02 ul li {width:300px;}
+    main .inform03 .img_g a:last-child img {display:none;}
+}
+
+@media screen and (max-width:430px) {
+    main .inform02 ul li {width:180px;}
+    main .inform02 ul li:last-child {display:none;}
+    main .inform03 .img_g a:nth-child(4) img {display:none;}
+}
